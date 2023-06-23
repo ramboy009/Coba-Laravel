@@ -11,6 +11,7 @@
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">
       <a class="nav-link px-3" href="#">Sign out</a>
+      <title>Diagnosis Hepatitis</title>
     </div>
   </div>
 </header>
@@ -23,10 +24,11 @@
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-body-tertiary sidebar collapse">
       <div class="position-sticky pt-3 sidebar-sticky">
         <ul class="nav flex-column">
+          <h6 class="text-center" disabled>Menu</h6>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">
               <span data-feather="home" class="align-text-bottom"><i class="bi bi-person-fill"></i></span>
-              Profil
+              Beranda
             </a>
           </li>
           <li class="nav-item">
@@ -38,13 +40,13 @@
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="users" class="align-text-bottom"><i class="bi bi-people-fill"></i></span>
-              Pengguna
+              Keluhan
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="shopping-cart" class="align-text-bottom"><i class="bi bi-file-text-fill"></i></span>
-              Keluhan
+              Keterangan
             </a>
           </li>
           <li class="nav-item">

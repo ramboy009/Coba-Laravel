@@ -21,4 +21,20 @@ Route::get('/', function () {
 Route::get('/home' , [HomeContrller::class,'index']);
 
 
-Route::get('/beranda' , [HomeContrller::class,'home']);
+Route::get('/' , [HomeContrller::class,'home']);
+
+Route::get('/register' , [HomeContrller::class,'register']);
+
+Route::get('/login' , [HomeContrller::class,'login']);
+
+// Route::get('/register', function () {
+//     return view('login.register',[
+//         'title' => 'Register'
+//     ]);
+// });
+
+// Route::get('/login', function () {
+//     return view('login.login',[
+//         'title' => 'Login'
+//     ]);
+// });
