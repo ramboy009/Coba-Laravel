@@ -30,6 +30,8 @@ Route::get('/login' , [HomeContrller::class,'login']);
 
 Route::get('/beranda' , [MenuController::class, 'beranda']);
 
+Route::get('/keterangan' , [MenuController::class, 'keterangan']);
+
 // Route::get('/register', function () {
 //     return view('login.register',[
 //         'title' => 'Register'

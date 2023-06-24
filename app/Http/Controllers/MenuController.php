@@ -11,5 +11,12 @@ class MenuController extends Controller
     return view('Dashboard.beranda', [
         'title' => 'beranda'
     ]);
- }   //
+    } 
+
+    public function keterangan()
+    {
+        return view('Dashboard.keterangan', [
+            'title' => 'keterangan'
+        ]);
+    }
 }
