@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeContrller;
+use App\Http\Controllers\MenuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,8 @@ Route::get('/' , [HomeContrller::class,'home']);
 Route::get('/register' , [HomeContrller::class,'register']);
 
 Route::get('/login' , [HomeContrller::class,'login']);
+
+Route::get('/beranda' , [MenuController::class, 'beranda']);
 
 // Route::get('/register', function () {
 //     return view('login.register',[
